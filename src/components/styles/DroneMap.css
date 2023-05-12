@@ -1,0 +1,128 @@
+/* .drone-marker {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .drone-marker.drone-enter {
+    opacity: 0;
+    transform: scale(0);
+  }
+  
+  .drone-marker.drone-enter-active {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .drone-marker.drone-exit {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .drone-marker.drone-exit-active {
+    opacity: 0;
+    transform: scale(0);
+  } */
+  .map-container {
+    height: 100vh;
+    }
+    
+     
+    .sidebar {
+    background-color: rgba(35, 55, 75, 0.9);
+    color: #fff;
+    padding: 6px 12px;
+    font-family: monospace;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 12px;
+    border-radius: 4px;
+    }
+    .toolbar {
+      content: "this";    
+      background-color: rgba(35, 55, 75, 0.6);
+      border:2px solid rgb(255, 255, 255); 
+      color: #fff;
+      padding: 6px 12px;
+      height:200px;
+      width: 300px;
+      font-family: monospace;
+      z-index: 1;
+      position: absolute;
+      top: 65%;
+      left: 0;
+      margin: 12px;
+      border-radius: 10px; 
+      align-items: center;
+      text-align: center;
+      /* display: flex; */
+      }
+
+      .display_details{
+        content: "this";    
+      background-color: rgba(35, 55, 75, 0.6);
+      border:2px solid rgb(255, 255, 255); 
+      color: #00fa2a;
+      padding: 6px 12px;
+      height:200px;
+      width: 300px;
+      font-weight: 900;
+      font-family: monospace;
+      z-index: 1;
+      position: absolute; 
+      top: 65%;
+      left: 75%; 
+      margin: 12px;
+      border-radius: 10px; 
+      align-items: center;
+      text-align: center;
+      }
+      .display_details h3{
+        color:yellow;
+      }
+      .display_details p span{
+        color: rgb(238, 227, 13);
+        font-weight: 900;
+      }
+      .input_form{
+        display: flex;
+        flex-direction: row;
+        text-align: center; 
+      }
+      .input_form label{
+        font-weight: 800;
+        color:yellow
+      }
+    .init_point{
+      height:150px;  
+    }
+    .end_point{
+      height:150px;  
+    }
+    .btn-track{ 
+      background-color: rgba(69, 237, 181, 0.987);
+      border:2px solid transparent;
+      border-radius: 10px; 
+      margin:  3% auto;  
+      cursor: pointer;
+      height: 40px;
+      width: 120px;
+      font-weight: 900;                                                                             
+    }
+    .btn-track:hover{
+      background-color: rgba(2, 248, 166, 0.847);
+      border: 2px solid whitesmoke;
+    }
+    .loc_input {
+      display: inline-block; 
+      height: 35px; 
+      margin: 5px auto;
+      border-radius: 5px;
+      text-indent: 10px;
+      border:0px solid transparent;
+    }
