@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/drone_stimulator/static/css/main.677400a8.css",
+    "main.js": "/drone_stimulator/static/js/main.25fd7d62.js",
+    "index.html": "/drone_stimulator/index.html",
+    "main.677400a8.css.map": "/drone_stimulator/static/css/main.677400a8.css.map",
+    "main.25fd7d62.js.map": "/drone_stimulator/static/js/main.25fd7d62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.677400a8.css",
+    "static/js/main.25fd7d62.js"
+  ]
+}
